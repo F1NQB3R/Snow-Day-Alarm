@@ -83,7 +83,7 @@ while True:
                         press = True
                     
                     if press:
-                        if cur - start > 2: #press and hold sensor for 2000 ticks to turn off alarm, or else snooze alarm on press
+                        if cur - start > 2: #press and hold sensor for 2 seconds to turn off alarm, or else snooze alarm on press
                             snooze = False
                             alarm = False
                             break
